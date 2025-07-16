@@ -20,8 +20,8 @@ const ContactSection = () => {
     {
       icon: Phone,
       label: 'Phone',
-      value: '093 944 0500',
-      href: 'tel:+380939440500'
+      value: '066 497 0310',
+      href: 'tel:+380664970310'
     },
     {
       icon: MapPin,
@@ -56,7 +56,7 @@ Email: ${formData.email}
 Message:
 ${formData.message}
     `.trim());
-    
+
     window.location.href = `mailto:TeTeBoy007@gmail.com?subject=${subject}&body=${body}`;
   };
 
@@ -91,7 +91,7 @@ ${formData.message}
                 Contact Information
               </h3>
               <p className="text-muted-foreground">
-                Feel free to reach out through any of these channels. I'm always open to 
+                Feel free to reach out through any of these channels. I'm always open to
                 discussing new opportunities and interesting projects.
               </p>
             </div>

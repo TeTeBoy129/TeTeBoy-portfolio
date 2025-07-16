@@ -6,7 +6,7 @@ const AboutSection = () => {
     { icon: Briefcase, label: 'Job', value: 'Senior Full-Stack Developer & AI Engineer' },
     { icon: Calendar, label: 'Birthday', value: 'January 29, 1996' },
     { icon: MapPin, label: 'Address', value: '273-A, Kharkiv, Ukraine' },
-    { icon: Phone, label: 'Phone', value: '093 944 0500' },
+    { icon: Phone, label: 'Phone', value: '066 497 0310' },
     { icon: Mail, label: 'Email', value: 'TeTeBoy007@gmail.com' },
     { icon: Github, label: 'GitHub', value: 'github.com/TeTeBoy129' }
   ];
@@ -41,14 +41,14 @@ const AboutSection = () => {
 
           <div className="space-y-4">
             <p className="text-muted-foreground leading-relaxed">
-              I'm a passionate Senior Full-Stack Developer and AI/ML Engineer with expertise in 
-              building cutting-edge AI-driven platforms. Born in Ukraine and currently based in 
-              Kharkiv, I specialize in creating scalable web applications with modern frameworks 
+              I'm a passionate Senior Full-Stack Developer and AI/ML Engineer with expertise in
+              building cutting-edge AI-driven platforms. Born in Ukraine and currently based in
+              Kharkiv, I specialize in creating scalable web applications with modern frameworks
               and integrating advanced AI technologies.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              My journey in technology spans from traditional web development to the exciting 
-              world of artificial intelligence and machine learning. I love creating solutions 
+              My journey in technology spans from traditional web development to the exciting
+              world of artificial intelligence and machine learning. I love creating solutions
               that bridge the gap between complex AI capabilities and user-friendly interfaces.
             </p>
           </div>
