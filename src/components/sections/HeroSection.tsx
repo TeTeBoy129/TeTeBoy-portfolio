@@ -16,7 +16,7 @@ const HeroSection = () => {
         <div className="relative mx-auto w-64 h-64 rounded-full overflow-hidden border-4 border-primary/30 shadow-glow">
           <img
             src={heroProfile}
-            alt="Pavlo Chernenko - Developer Workspace"
+            alt="Antoine Rajan - Developer Workspace"
             className="w-full h-full object-cover"
           />
         </div>
@@ -24,7 +24,7 @@ const HeroSection = () => {
         {/* Name and Title */}
         <div className="space-y-4">
           <h1 className="text-5xl md:text-6xl font-bold portfolio-gradient-text">
-            Pavlo Chernenko
+            Antoine Rajan
           </h1>
           <p className="text-xl md:text-2xl text-secondary-foreground">
             Welcome to my Portfolio!

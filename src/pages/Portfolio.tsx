@@ -56,21 +56,21 @@ const Portfolio = () => {
         <div className="max-w-6xl mx-auto px-4 py-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <div className="text-center md:text-left">
-              <p className="text-foreground font-medium">Pavlo Chernenko</p>
+              <p className="text-foreground font-medium">Antoine Rajan</p>
               <p className="text-sm text-muted-foreground">
                 Senior Full-Stack Developer & AI Engineer
               </p>
             </div>
             <div className="flex items-center gap-4">
               <a
-                href="mailto:TeTeBoy007@gmail.com"
+                href="mailto:bigboss012961@gmail.com"
                 className="text-muted-foreground hover:text-primary transition-colors"
               >
-                TeTeBoy007@gmail.com
+                bigboss012961@gmail.com
               </a>
               <span className="text-border">|</span>
               <a
-                href="https://github.com/TeTeBoy129"
+                href="https://github.com/bugman-007"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-primary transition-colors"
@@ -81,7 +81,7 @@ const Portfolio = () => {
           </div>
           <div className="mt-6 pt-6 border-t border-border/30 text-center">
             <p className="text-sm text-muted-foreground">
-              © 2024 Pavlo Chernenko. Built with React, TypeScript, and Tailwind CSS.
+              © 2024 Antoine Rajan. Built with React, TypeScript, and Tailwind CSS.
             </p>
           </div>
         </div>

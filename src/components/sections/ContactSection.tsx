@@ -14,26 +14,26 @@ const ContactSection = () => {
     {
       icon: Mail,
       label: 'Email',
-      value: 'TeTeBoy007@gmail.com',
-      href: 'mailto:TeTeBoy007@gmail.com'
+      value: 'bigboss012961@gmail.com',
+      href: 'mailto:bigboss012961@gmail.com'
     },
     {
       icon: Phone,
       label: 'Phone',
-      value: '066 497 0310',
-      href: 'tel:+380664970310'
+      value: '+65 9123 6785',
+      href: 'tel:+959693249899'
     },
     {
       icon: MapPin,
       label: 'Location',
-      value: '273-A, Kharkiv, Ukraine',
+      value: '10 Orchard Road, Singapore, Singapore',
       href: null
     },
     {
       icon: Github,
       label: 'GitHub',
-      value: 'github.com/TeTeBoy129',
-      href: 'https://github.com/TeTeBoy129'
+      value: 'github.com/bugman-007',
+      href: 'https://github.com/bugman-007'
     }
   ];
 
@@ -57,7 +57,7 @@ Message:
 ${formData.message}
     `.trim());
 
-    window.location.href = `mailto:TeTeBoy007@gmail.com?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:bigboss012961@gmail.com?subject=${subject}&body=${body}`;
   };
 
   return (

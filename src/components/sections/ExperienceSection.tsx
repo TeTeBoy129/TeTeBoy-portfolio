@@ -7,7 +7,7 @@ const ExperienceSection = () => {
       position: 'Senior Full-Stack Developer & AI Engineer',
       company: 'Neuronix Labs',
       location: 'Remote, Berlin',
-      period: '2022 - Present',
+      period: '2022 - 2024',
       type: 'Remote',
       description: 'Leading the development of AI-driven platforms with LLM integration, cloud orchestration, and real-time user dashboards. Architecting scalable solutions that bridge AI capabilities with user-friendly interfaces.',
       achievements: [
@@ -21,9 +21,9 @@ const ExperienceSection = () => {
     },
     {
       position: 'Machine Learning Backend Engineer',
-      company: 'Inoxoft',
-      location: 'Lviv, Ukraine',
-      period: '2020 - 2022',
+      company: 'NexSoft Pte Ltd',
+      location: 'Singapore, Singapore',
+      period: '2021 - 2022',
       type: 'On-site',
       description: 'Developed Python-based microservices for AI model serving, data pipelines, and blockchain-based automation. Focused on scalable backend architecture for machine learning applications.',
       achievements: [
@@ -34,22 +34,6 @@ const ExperienceSection = () => {
         'Optimized database performance for large-scale data processing'
       ],
       technologies: ['Python', 'Django', 'Flask', 'PostgreSQL', 'Redis', 'Docker', 'Kubernetes', 'Blockchain']
-    },
-    {
-      position: 'Junior Web Developer',
-      company: 'TechMagic',
-      location: 'Lviv, Ukraine',
-      period: '2019 - 2020',
-      type: 'On-site',
-      description: 'Focused on building modern admin panels, API integrations, and interactive user interfaces. Gained solid foundation in web development and modern JavaScript frameworks.',
-      achievements: [
-        'Developed responsive admin panels with React and Vue.js',
-        'Integrated RESTful APIs and GraphQL endpoints',
-        'Implemented modern UI/UX designs with Tailwind CSS',
-        'Built interactive dashboards with real-time data visualization',
-        'Collaborated with design team to create pixel-perfect interfaces'
-      ],
-      technologies: ['JavaScript', 'React', 'Vue.js', 'Node.js', 'Express', 'MongoDB', 'Tailwind CSS']
     }
   ];
 
@@ -108,11 +92,11 @@ const ExperienceSection = () => {
                       </div>
                     </div>
                   </div>
-                  
+
                   <p className="text-muted-foreground mb-4 leading-relaxed">
                     {exp.description}
                   </p>
-                  
+
                   <div className="space-y-4">
                     <div>
                       <h5 className="font-medium text-foreground mb-2">Key Achievements:</h5>
@@ -125,7 +109,7 @@ const ExperienceSection = () => {
                         ))}
                       </ul>
                     </div>
-                    
+
                     <div>
                       <h5 className="font-medium text-foreground mb-2">Technologies:</h5>
                       <div className="flex flex-wrap gap-2">

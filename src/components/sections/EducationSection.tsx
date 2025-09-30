@@ -5,26 +5,14 @@ const EducationSection = () => {
   const education = [
     {
       degree: 'Master of Science in Artificial Intelligence & Data Systems',
-      institution: 'National Technical University of Ukraine "Igor Sikorsky Kyiv Polytechnic Institute"',
-      location: 'Kyiv, Ukraine',
-      period: '2017 - 2019',
+      institution: 'Swinburne University of Technology',
+      location: 'Melbourne, Australia',
+      period: '2018 - 2021',
       description: 'Specialized in artificial intelligence, machine learning algorithms, and data processing systems. Focused on neural networks, deep learning, and advanced AI applications.',
       achievements: [
         'Thesis on Neural Network Optimization',
         'Advanced Machine Learning Coursework',
         'Research in AI Applications'
-      ]
-    },
-    {
-      degree: 'Bachelor of Science in Computer Engineering',
-      institution: 'Wroclaw University of Science and Technology',
-      location: 'Wrocław, Poland',
-      period: '2013 - 2017',
-      description: 'Comprehensive study of computer engineering fundamentals, software development, and system architecture. Strong foundation in programming, algorithms, and computer systems.',
-      achievements: [
-        'Software Engineering Excellence',
-        'System Architecture Design',
-        'Programming Languages Mastery'
       ]
     }
   ];
@@ -80,11 +68,11 @@ const EducationSection = () => {
                       </div>
                     </div>
                   </div>
-                  
+
                   <p className="text-muted-foreground mb-4 leading-relaxed">
                     {edu.description}
                   </p>
-                  
+
                   <div className="space-y-2">
                     <h5 className="font-medium text-foreground">Key Achievements:</h5>
                     <ul className="space-y-1">

@@ -4,11 +4,11 @@ import aboutWorkspace from '@/assets/about-workspace.jpg';
 const AboutSection = () => {
   const personalInfo = [
     { icon: Briefcase, label: 'Job', value: 'Senior Full-Stack Developer & AI Engineer' },
-    { icon: Calendar, label: 'Birthday', value: 'January 29, 1996' },
-    { icon: MapPin, label: 'Address', value: '273-A, Kharkiv, Ukraine' },
-    { icon: Phone, label: 'Phone', value: '066 497 0310' },
-    { icon: Mail, label: 'Email', value: 'TeTeBoy007@gmail.com' },
-    { icon: Github, label: 'GitHub', value: 'github.com/TeTeBoy129' }
+    { icon: Calendar, label: 'Birthday', value: 'June 1, 2000' },
+    { icon: MapPin, label: 'Address', value: '10 Orchard Road, Singapore, Singapore' },
+    { icon: Phone, label: 'Phone', value: '+65 9123 6785' },
+    { icon: Mail, label: 'Email', value: 'bigboss012961@gmail.com' },
+    { icon: Github, label: 'GitHub', value: 'github.com/bugman-007' }
   ];
 
   return (
@@ -21,7 +21,7 @@ const AboutSection = () => {
               About Me
             </h2>
             <h3 className="text-2xl font-semibold text-foreground">
-              Pavlo Chernenko
+              Antoine Rajan
             </h3>
           </div>
 
@@ -42,8 +42,8 @@ const AboutSection = () => {
           <div className="space-y-4">
             <p className="text-muted-foreground leading-relaxed">
               I'm a passionate Senior Full-Stack Developer and AI/ML Engineer with expertise in
-              building cutting-edge AI-driven platforms. Born in Ukraine and currently based in
-              Kharkiv, I specialize in creating scalable web applications with modern frameworks
+              building cutting-edge AI-driven platforms. Born in HongKong and currently based in
+              Singapore, I specialize in creating scalable web applications with modern frameworks
               and integrating advanced AI technologies.
             </p>
             <p className="text-muted-foreground leading-relaxed">
@@ -55,7 +55,7 @@ const AboutSection = () => {
 
           <div className="flex gap-4">
             <a
-              href="https://github.com/TeTeBoy129"
+              href="https://github.com/bugman-007"
               target="_blank"
               rel="noopener noreferrer"
               className="portfolio-button"
